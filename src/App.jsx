@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Artist from './pages/Artist';
 import Songs from './pages/Songs';
 import Song from './pages/Song';
+import Artists from './pages/Artists';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/artists' element={<Artist />}/>
+        <Route path='/artists' element={<Artists />}/>
         <Route path='/artist/:id' element={<Artist />}/>
         <Route path='/songs' element={<Songs />}/>
         <Route path='/song/:id' element={<Song />}/>
